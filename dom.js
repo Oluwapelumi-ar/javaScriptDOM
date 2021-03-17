@@ -16,7 +16,7 @@ let work = document.getElementsByTagName("h2");
 console.log(work)
 
 //There are two methods to changing text which are: textContent and innerText.
-//The textContent method does not pay attention to th e styling of an element while the innerText method does.
+//The textContent method does not pay attention to the styling of an element while the innerText method does.
 // work.textContent = "hello";
 // console.log(work.textContent);
 
