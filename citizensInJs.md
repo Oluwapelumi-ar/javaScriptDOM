@@ -10,4 +10,4 @@ The practice of Closure are also possible because they enjoy the status of first
 
 *Second Class Citizens in JavaScript*
 
-Second Class citizenship in javascript refers to an entity which the vakue can be passed as a parameter but can neither be returned from a function nor be assigned to a variable.
+Second Class citizenship in javascript refers to an entity which the value can be passed as a parameter but can neither be returned from a function nor be assigned to a variable.
