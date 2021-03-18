@@ -5,35 +5,54 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="/dom.js"></script>
-  <title>Document Object Manipulation</title>
+  <!-- <script src="/dom.js" defer></script> -->
+  <script src="/magic-words.js" defer></script>
+  <title>fIVE MAGIC WORDS</title>
 </head>
 <body>
   <div class="container">
     <!-- NavBar -->
-    <header>     
+    <header> 
       <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1">Document Object Manipulation</span>
+        <span class="navbar-brand mb-0 h1">Five Magic Words</span>
       </nav>
       <!-- <h2>Let Love lead</h2> -->
     </header>
 
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid">
-      <h1 class="display-4">Hello, world!</h1>
-      <h2 id="show">Learning is very interesting</h2>
-      <p class="lead">This is a simple practice and code along session with Traversy Media javaScript Crash Course</p>
+      <h1 class="display-6">Hello, world!</h1>
+      <h2 id="show">Learning is fun</h2>
+      <p class="lead">Learning the magic words is interesting but using them makes life easier</p>
       <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
       </p>
     </div>
 
+    <!-- Form -->
+    <form class="tryform">
+      <div class="mb-3 ">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form><br>
+
     <!-- List -->
     <ul class="list-group">
-      <li class="list-group-item list-group-item-success">Cras justo odio</li>
-      <li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
-      <li class="list-group-item list-group-item-success">Morbi leo risus</li>
-      <li class="list-group-item list-group-item-success">Porta ac consectetur ac</li>
-      <li class="list-group-item list-group-item-success">Vestibulum at eros</li>
+      <li class="list-group-item list-group-item-success">First List Item</li>
+      <li class="list-group-item list-group-item-success">Second List Item</li>
+      <li class="list-group-item list-group-item-success">Third List item</li>
+      <li class="list-group-item list-group-item-success">Fourth List Item</li>
+      <li class="list-group-item list-group-item-success">Fifth List Item</li>
     </ul>
   </div>
 </body>
