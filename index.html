@@ -6,54 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- <script src="/dom.js" defer></script> -->
-  <script src="/magic-words.js" defer></script>
+  <script src="magic-words.js" defer></script>
   <title>fIVE MAGIC WORDS</title>
 </head>
 <body>
+  
   <div class="container">
+
     <!-- NavBar -->
     <header> 
-      <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1">Five Magic Words</span>
-      </nav>
-      <!-- <h2>Let Love lead</h2> -->
+        <nav class="navbar navbar-light">
+            <span class="navbar-brand text-white mb-0 h1">Five Magic Words</span>
+        </nav>
     </header>
 
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid">
-      <h1 class="display-6">Hello, world!</h1>
-      <h2 id="fiveMagicWords">Learning is fun</h2>
-      <p class="lead">Learning the magic words is interesting but using them makes life easier</p>
-      <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
-      
+        <h2>Hello, world</h1>
+        <h4 id="fiveMagicWords">Learning is fun</h2>
+        <p class="lead text-black">Learning the magic words is interesting but using them makes life easier</p>
     </div>
 
-    <!-- Form -->
-    <form class="tryform">
-      <div class="mb-3 ">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-      </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form><br>
-
     <!-- List -->
+    <p class="text-white">Click Each Word to expand</p>
     <ul class="list-group">
-      <li class="list-group-item list-group-item-success">First List Item</li>
-      <li class="list-group-item list-group-item-success">Second List Item</li>
-      <li class="list-group-item list-group-item-success">Third List item</li>
-      <li class="list-group-item list-group-item-success">Fourth List Item</li>
-      <li class="list-group-item list-group-item-success">Fifth List Item</li>
+        <li class="list-group-item ">Please<br></li>
+        <li class="list-group-item ">Excuse Me</li>
+        <li class="list-group-item ">Sorry</li>
+        <li class="list-group-item ">Thank You</li>
+        <li class="list-group-item ">Pardon Me</li>
     </ul>
+    <br>
+    <button class="btn  btn-block learn-more-button" id="button">Learn more</button>
+    <div class="outputDiv"></div><br>
+     
+    <!-- Form -->
+    <form id="updateName">
+        <label class="name" for="name">Name:</label><br>
+        <input type="text" id="fill-name"placeholder="Name here"><br><br>
+        <input type="email" placeholder="Fill in your Email"><br><br>
+        <button type="submit" id="submit-button">Submit</button><br>
+        <div class="submit-output"></div><br>
+    </form>
+
+    <div class="box" style="width:400px;height:200px;background: grey"><h5>Hover Me</h5></div>
+
+    <div class="output"></div>
+
   </div>
 </body>
 </html>
