@@ -52,8 +52,6 @@ const pardonMe = items[4];
   pardonMe.style.backgroundColor = 'pink';
   };
 pardonMe.addEventListener('click', pardonMeDetails,true);
-pardonMe.removeEventListener('click', pardonMeDetails,true);
-
 
 //QUERYSELECTOR//
 let headerText = document.querySelector('#fiveMagicWords');
@@ -72,8 +70,6 @@ const outputDiv = document.querySelector('.outputDiv');
     outputDiv.style.color = 'pink'
   };
   learnMoreButton.addEventListener('click' ,alertUser);
-  learnMoreButton.removeEventListener('dblclick' ,alertUser,false);
-
 
 // Welcome Message 
 const form = document.querySelector('#updateName');
